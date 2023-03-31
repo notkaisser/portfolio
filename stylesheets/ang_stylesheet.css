@@ -1,0 +1,219 @@
+html{
+	scroll-behavior:smooth;
+}
+
+
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Segoe UI',sans-serif;
+	box-sizing:border-box;
+}
+
+
+.hero{
+	height:100vh;
+	width:100%;
+	background-image: url(https://media.discordapp.net/attachments/795463932763701248/1089800408454672384/background.jpg?width=2500&height=2500);
+	background-size:cover;
+	background-position:center;
+}
+
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-top:45px;
+	padding-left:8%;
+	padding-right:8%;
+}
+
+.logo{
+	color:white;
+	font-size:35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+span{
+	color:#E4CA2A;
+}
+
+nav ul li{
+	list-style-type: none;
+	display:inline-block;
+	padding:10px 25px;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+
+nav ul li a:hover{
+	color:#E4CA2A;
+	transition: .4s;
+}
+
+.btn{
+	background-color: #E4CA2A;
+	color:white;
+	text-decoration:none;
+	border:1px solid transparent;
+	font-weight:bold;
+	padding:10px 20px;
+	border-radius:25px;
+	
+}
+.btn:hover{
+	transform: scale(1.2);
+	transition: transform .4s;
+}
+
+.content{
+	position:absolute;
+	top:50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color:white;
+	margin: 20px 0px 20px;
+	font-size: 120px;
+}
+h3{
+	color:white;
+	font-size:45px;
+	margin-bottom:60px;
+}
+h4{
+	color:#E4CA2A;
+	letter-spacing:2px;
+	font-size:35px;
+}
+
+.about{
+	width:100%
+	padding: 100px 0px;
+	background-color: #1B1B25;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-content{
+	width: 550px;
+}
+.main{
+	width:1130px;
+	max-width:95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-content h2{
+	color:white;
+	font-size: 65px;
+	text-transform: capitalize;
+}
+.about-content h5{
+	color:white;
+	letter-spacing:2px;
+	font-size: 22px;
+	margin-bottom:25px;
+	text-transform: capitalize;
+}
+	
+	
+	
+.about-content p{
+	color:white;
+	letter-spacing:1px;
+	line-height: 28px;
+	font-size:19px;
+	margin-bottomL:45px;
+}
+
+.educ{
+	background:  #1B1B25;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: #E4CA2A;
+	font-size: 75px;
+	width:1130px;
+	margin:30px auto;
+	text-align:center;
+}
+.box{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height:170px;
+	width:300px;
+	padding: 20px 35px;
+	background: #E4CA2A;
+	border-radius: 20px;
+	margin: 15px;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+}
+h5{
+	color: white;
+	font-size:23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color:black;
+	font-size: 20px;
+	line-height:27px;
+	margin-bottom:25px;
+}
+
+.interests{
+	background:  #1B1B25;
+	width: 100%;
+	padding: 100px 0px;
+}
+.int h2{
+	color: #E4CA2A;
+	font-size: 75px;
+	width:1130px;
+	margin:30px auto;
+	text-align:center;
+}
+.imgcard{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.pic{
+	height:400px;
+	width:500px;
+	padding: 20px 35px;
+	background: #E4CA2A;
+	border-radius: 20px;
+	margin: 15px;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+}
+.pic img{
+	height:200px;
+	width: 250px;
+}
+.desc p{
+	color:black;
+	font-size: 20px;
+	line-height:27px;
+	margin-bottom:25px;
+}
