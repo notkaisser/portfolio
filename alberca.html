@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Julia Alberca</title>
+    <link rel="stylesheet" href="stylesheets/alberca_stylesheet.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" style="background-image: url(https://cdn.discordapp.com/attachments/625685473867726858/1091174420346839195/gradient.png);">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="main.html" target="_blank">Back to Homepage</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, <br>I'm Julia Nicole Alberca</h1>
+            </div>
+        </div>
+    </div>
+    <!-------ABOUT-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://cdn.discordapp.com/attachments/625685473867726858/1091174420632059984/julia.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'am a 2nd year college student in iACADEMY and im studying Web Development, I got interested in making webpage because 
+                        my father use to teach me when I was young and up until now I continue to expanding my knowlege
+                        in programming to get better because I love combining creative designs and 
+                        the worlds logic to make an interesting , accessible, and user-friendly websites. 
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interface</li>
+                            <li><span>HTML/CSS</span><br>Frontend development</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2021</span><br>iACADEMY</li>
+                            <li><span>2021-2023</span><br>iACADEMY</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------CONTACTS------------>
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> julianicolealberca237@email.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 09253107705</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+
+</body>
+</html>

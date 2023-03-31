@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Beginner:wght@500&family=Montserrat+Alternates:wght@500&family=Sulphur+Point&display=swap');</style>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Beginner:wght@500&family=Montserrat+Alternates:wght@500&family=Sulphur+Point&display=swap');</style>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');</style>
+
+        <link rel="stylesheet" href="stylesheets/main_stylesheet.css">
+
+        <title>Portfolio/s</title>
+    </head>
+    <body>
+        <div id="logo"><a href="#"><h1>Portfolio<span>/s</span></h1></a></div>
+
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#people">Portfolios</a></li>
+                    <li><button type="button" id="contact-btn">Contact Us</button></li>
+                </ul>
+            </nav>
+
+            <div id="contactModal" class="modal">
+                <div class="modal-text">
+                    <span class="close">&times;</span>
+                    <h3>Contact Us Form:</h3>
+                    <form>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="nameTextbox" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="emailTextbox" required>
+                        </div>
+                        <div>
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subjectTextbox" required>
+                        </div>
+                        <textarea name="tweet" rows="10" cols="60" placeholder="your message" required style="resize: none;"></textarea>
+                        <div><input type="submit" value="submit" class="btn-style"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="dictionary">
+            <div class="dictionary-text">
+                    <h1>portfolio</h1>
+                    <h3>noun</h3>
+                    <p>A selection of a student's work (such as papers and tests) compiled over a period of time and used for assessing performance or progress</p>
+            </div>  
+            
+            <div class="square-design" id="csquare1">
+                <hr class="square-line">
+                <hr class="square-line">
+                <hr class="square-line">
+            </div>
+        </div>
+
+        <hr class="line">
+        <div class="text">
+            <h1>Welcome to [Portfolio<span>/s</span>]</h1>
+            <p>The website [Portfolio/s] serves as a collection of basic portfolios belonging to 2nd year iACADEMY students as of School Year (S.Y.) 2022-2023.</p>
+            <p>This site allows the students to showcase their talents, skills learned in college, design preference, and their background.</p>
+        </div>
+        <hr class="line">
+
+        <section id="people">
+            <div class="portfolio">
+                <div><img  class="image" id="julia" src="https://cdn.discordapp.com/attachments/625685473867726858/1091174420632059984/julia.jpg"></div>
+                <div class="img-shadow" id="alberca"></div>
+                <div class="links" id="link1"><a href="alberca.html" target="_blank"><h1>Julia Alberca's Portfolio</h1></a></div>
+            </div>
+
+            <div class="portfolio">
+                <div><img  class="image" id="kai" src="https://media.discordapp.net/attachments/795463932763701248/1089800409452920903/notkai4.jpg"></div>
+                <div class="img-shadow" id="ang"></div>
+                <div class="links" id="link2"><a href="ang.html" target="_blank"><h1>Kaisser Ang's Portfolio</h1></a></div>
+            </div>
+
+            <div class="portfolio">
+                <div><img  class="image" id="santos" src="https://cdn.discordapp.com/attachments/884594646142042112/1088393386916057178/20190219_105019.jpg"></div>
+                <div class="img-shadow" id="chu"></div>
+                <div class="links" id="link3"><a href="chu.html" target="_blank"><h1>Santos Chu's Portfolio</h1></a></div>
+            </div>
+            <div class="portfolio">
+                <div><img  class="image" id="aica" src="https://cdn.discordapp.com/attachments/771668155038302218/1091161839628468324/IMG20230103102958.jpg"></div>
+                <div class="img-shadow" id="cua"></div>
+                <div class="links" id="link4"><a href="cua.html" target="_blank"><h1>Angelica Cua's Portfolio</h1></a></div>
+            </div>
+        </section>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
